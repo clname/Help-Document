@@ -2,12 +2,17 @@
 *参考《GitHub入门与实践》-大塚弘记著*
 #####此处省略git的安装
   ```
+    //如果第一次使用git，需要设置署名和邮箱
+    $ git config --global user.name "username"
+    $ git config --global user.email "your email"
+    
     $ ssh -keygen -t rsa -C "youremail"                       //新建sshkey，省略ssh的使用
     $ git clone git@github.com:vagabondize/Hello-World.git    //克隆github上的仓库
     
     $ git pull                                                //获取远程仓库的更新
     $ git status                                              //查看本地仓库上的更新状况
     $ git add hello_world.php                                 //本地新建了一个文件，然后添加到本地git中
+    $ git add .                                               //添加本地所有改变的状态
     $ git commit -m "add hello-world by php"                  //提交到本地仓库，写上备注
     $ git push                                                //推送到远程仓库中
     
