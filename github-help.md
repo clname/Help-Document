@@ -7,6 +7,7 @@
     $ git config --global user.email "your email"
     
     $ ssh -keygen -t rsa -C "youremail"                       //新建sshkey，省略ssh的使用
+
     $ git clone git@github.com:vagabondize/Hello-World.git    //克隆github上的仓库
     
     $ git pull                                                //获取远程仓库的更新
@@ -16,6 +17,11 @@
     $ git commit -m "add hello-world by php"                  //提交到本地仓库，写上备注
     $ git push                                                //推送到远程仓库中
     
+    //接下来的三行可以让你git push的时候无需输入github的用户名和密码
+    $ git remot rm origin
+    $ git remote add origin git@github.com:(your github name)/(your repository name)
+    $ git push -u origin master
+
     $ git log                                                 //查看日志
   ```
 
