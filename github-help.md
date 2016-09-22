@@ -6,7 +6,7 @@
     $ git config --global user.name "username"
     $ git config --global user.email "your email"
     
-    $ ssh -keygen -t rsa -C "youremail"                       //新建sshkey，省略ssh的使用
+    $ ssh-keygen -t rsa -C "youremail"                       //新建sshkey，省略ssh的使用
 
     $ git clone git@github.com:vagabondize/Hello-World.git    //克隆github上的仓库
     
