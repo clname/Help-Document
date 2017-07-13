@@ -15,9 +15,9 @@
     $ git add hello_world.php                                 //向暂存区中添加文件hello_world/php
     $ git add .                                               //添加本地所有改变的状态
     
-    $ git rm -r --cached some-directory                       //删除github中的文件夹，本地保留
+    $ git rm -r --cached some-directory                       //删除github中的文件夹，本地保留
     
-    //保存仓库的历史记录, 引号里是提交信息，是对这次提交的一个概述
+   //保存仓库的历史记录, 引号里是提交信息，是对这次提交的一个概述
     $ git commit -m "add hello-world by php"                  
     $ git push                                                //推送到远程仓库中
     
