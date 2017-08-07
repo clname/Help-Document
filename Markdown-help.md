@@ -1,4 +1,4 @@
-##Markdown语法摘录于：http://www.bluesdream.com/blog/markdown-cheatsheet-syntax-manual.html
+## Markdown语法摘录于：http://www.bluesdream.com/blog/markdown-cheatsheet-syntax-manual.html
 
 Markdown 是一种轻量级标记语言，能将文本换成有效的XHTML(或者HTML)文档，它的目标是实现易读易写，成为一种适用于网络的书写语言。
 
